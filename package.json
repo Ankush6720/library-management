@@ -1,0 +1,27 @@
+{
+  "name": "library-management",
+  "version": "1.0.0",
+  "description": "This is a library management Backend API for the management of user and books",
+  "homepage": "https://github.com/Ankush6720/library-management#readme",
+  "bugs": {
+    "url": "https://github.com/Ankush6720/library-management/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankush6720/library-management.git"
+  },
+  "license": "ISC",
+  "author": "ankush Chaudhary",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Alice Johnson",
+            "email": "alice.johnson@example.com",
+            "role": "admin",
+            "membershipDate": "2023-01-15",
+            "active": true
+        },
+        {
+            "id": 2,
+            "name": "Bob Smith",
+            "email": "bob.smith@example.com",
+            "role": "member",
+            "membershipDate": "2023-06-20",
+            "active": true
+        },
+        {
+            "id": 3,
+            "name": "Carol Williams",
+            "email": "carol.williams@example.com",
+            "role": "member",
+            "membershipDate": "2023-09-10",
+            "active": true
+        },
+        {
+            "id": 4,
+            "name": "David Brown",
+            "email": "david.brown@example.com",
+            "role": "librarian",
+            "membershipDate": "2022-03-05",
+            "active": true
+        }
+    ]
+}
