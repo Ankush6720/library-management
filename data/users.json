@@ -4,33 +4,41 @@
             "id": 1,
             "name": "Alice Johnson",
             "email": "alice.johnson@example.com",
-            "role": "admin",
-            "membershipDate": "2023-01-15",
-            "active": true
+            "issuedBooks": "1",
+            "issuedDate": "2023-10-01",
+            "returnDate": "2023-10-15",
+            "subscriptionType": "premium",
+            "subscriptionDate": "2023-01-01"
         },
         {
             "id": 2,
-            "name": "Bob Smith",
-            "email": "bob.smith@example.com",
-            "role": "member",
-            "membershipDate": "2023-06-20",
-            "active": true
+            "name": "Brian Smith",
+            "email": "brian.smith@example.com",
+            "issuedBooks": "2",
+            "issuedDate": "2024-02-10",
+            "returnDate": "2024-02-24",
+            "subscriptionType": "standard",
+            "subscriptionDate": "2024-01-15"
         },
         {
             "id": 3,
-            "name": "Carol Williams",
-            "email": "carol.williams@example.com",
-            "role": "member",
-            "membershipDate": "2023-09-10",
-            "active": true
+            "name": "Carmen Lee",
+            "email": "carmen.lee@example.com",
+            "issuedBooks": "0",
+            "issuedDate": "",
+            "returnDate": "",
+            "subscriptionType": "basic",
+            "subscriptionDate": "2024-03-01"
         },
         {
             "id": 4,
-            "name": "David Brown",
-            "email": "david.brown@example.com",
-            "role": "librarian",
-            "membershipDate": "2022-03-05",
-            "active": true
+            "name": "David Patel",
+            "email": "david.patel@example.com",
+            "issuedBooks": "1",
+            "issuedDate": "2024-03-20",
+            "returnDate": "2024-04-03",
+            "subscriptionType": "premium",
+            "subscriptionDate": "2023-11-05"
         }
     ]
 }

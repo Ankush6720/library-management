@@ -1,4 +1,8 @@
 const express = require("express");
+const {users} = require("./data/users.json");
+
+const userRouter = require("./routes/users");
+const bookRouter = require("./routes/books");
 
 const app = express();
 
@@ -12,6 +16,10 @@ app.get('/', (req, res)=> {
         message: "Home Page"
     })
 })
+
+app.use('/users', userRouter);
+app.use('/books', bookRouter);
+
 
 app.listen(PORT, ()=> {
     console.log(`Server is running on http://localhost:${PORT}`)
